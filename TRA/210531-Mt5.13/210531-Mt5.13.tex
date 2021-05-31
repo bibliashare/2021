@@ -2,6 +2,7 @@
 \documentclass[12pt,aspectratio=169]{beamer}
 %-----------------------------------------------------------------------------------------------
 \usepackage{pslatex}
+\usepackage[greek,french,english,brazil]{babel} % last becomes the active one
 \usepackage{ulem}
 \renewcommand{\ULdepth}{3.0pt}
 %-----------------------------------------------------------------------------------------------
@@ -37,6 +38,10 @@
 \newcommand{\BLU}[1]{{\textcolor{TXblu}{#1}}}
 \newcommand{\MAG}[1]{{\textcolor{TXmag}{#1}}}
 \newcommand{\BRI}[1]{{\textcolor{BSpbg}{#1}}}   % Bright
+%-----------------------------------------------------------------------------------------------
+\newcommand{\ENtxt}[1]{\begin{otherlanguage}{english}{{#1}}\end{otherlanguage}}
+\newcommand{\GRtxt}[1]{\begin{otherlanguage}{greek}{{#1}}\end{otherlanguage}}
+\newcommand{\FRtxt}[1]{\begin{otherlanguage}{french}{{#1}}\end{otherlanguage}}
 %-----------------------------------------------------------------------------------------------
 \usetheme{CambridgeUS}
 \usefonttheme{serif}
@@ -127,6 +132,18 @@
 %-----------------------------------------------------------------------------------------------
 \section{Paralelos e Aplicação}
 %-----------------------------------------------------------------------------------------------
+
+%-----------------------------------------------------------------------------------------------
+\section{Referências}
+%-----------------------------------------------------------------------------------------------
+
+    %------------------------------------------------------------------------------------------
+    \begin{frame}[allowframebreaks]{Referências -- }
+        \bibliographystyle{unsrt}
+        \setbeamertemplate{bibliography item}{\insertbiblabel}
+        \bibliography{bibfile.bib}
+    \end{frame}
+    %------------------------------------------------------------------------------------------
 
 %-----------------------------------------------------------------------------------------------
 \end{document}
