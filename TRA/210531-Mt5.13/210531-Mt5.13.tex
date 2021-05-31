@@ -2,6 +2,8 @@
 \documentclass[12pt,aspectratio=169]{beamer}
 %-----------------------------------------------------------------------------------------------
 \usepackage{pslatex}
+\usepackage{ulem}
+\renewcommand{\ULdepth}{3.0pt}
 %-----------------------------------------------------------------------------------------------
 \newcommand{\YA}{%
     \mbox{%
@@ -81,6 +83,26 @@
             \alt<1-7>{presta}{\YEL{presta}} senão para,
             \alt<1-8>{lançado fora}{\CYA{lançado fora}}, ser
             \alt<1-9>{pisado}{}\only<10>{\CYA{pisado}} pelos homens.
+        }
+    \end{frame}
+
+    \begin{frame}{Mt 5.13 (ARA)}
+        \QUOTE{%
+            %-----!j 92 -i12
+            \ver{13}~%
+            \YEL{Vós} sois o
+            \GRE{sal} da terra; ora, se o
+            \GRE{sal}
+            \alt<1-1>%
+                {vier a ser \GRE{insípido}}%
+                {\uuline{vier a ser \GRE{insípido}}},
+            \alt<1-2>%
+                {como lhe \YEL{restaurar} o \GRE{sabor}}{}%
+                \only<3>{\uuline{como lhe \YEL{restaurar} o \GRE{sabor}}}?
+            Para nada mais
+            \YEL{presta} senão para,
+            \CYA{lançado fora}, ser
+            \CYA{pisado} pelos homens.
         }
     \end{frame}
 
