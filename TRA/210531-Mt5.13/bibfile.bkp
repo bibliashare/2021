@@ -41,6 +41,20 @@
 
 % Encoding: UTF-8
 
+@Book{2003-LouwJP+NidaEA-SBB,
+  title     = {Léxico Grego-Português do Novo Testamento: Baseado em Domínios Semânticos},
+  publisher = {Sociedade Bíblica do Brasil},
+  year      = {2003},
+  author    = {Johannes P. Louw and Eugene A. Nida},
+  address   = {Barueri, SP},
+  isbn      = {978-85-311-1026-9},
+  note      = {Tradução Vilson Scholz},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
 @Book{2007-FribergB+FribergT-VidaNova,
   title     = {O Novo Testamento Grego Analítico},
   publisher = {Vida Nova},
@@ -141,14 +155,13 @@
 
 % Encoding: UTF-8
 
-@Book{2003-LouwJP+NidaEA-SBB,
-  title     = {Léxico Grego-Português do Novo Testamento: Baseado em Domínios Semânticos},
-  publisher = {Sociedade Bíblica do Brasil},
-  year      = {2003},
-  author    = {Johannes P. Louw and Eugene A. Nida},
-  address   = {Barueri, SP},
-  isbn      = {978-85-311-1026-9},
-  note      = {Tradução Vilson Scholz},
+@Book{1993-ZodhiatesS+HadjiantoniouG-AMG,
+  title     = {The complete word study dictionary : New Testament},
+  publisher = {AMG Publishers},
+  year      = {1993},
+  editor    = {Spiros Zodhiates and Warren Baker and George Hadjiantoniou},
+  address   = {Chattanooga, TN, USA},
+  isbn      = {978-0-89957-663-3},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
