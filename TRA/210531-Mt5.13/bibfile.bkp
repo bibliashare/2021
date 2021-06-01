@@ -13,6 +13,19 @@
 
 % Encoding: UTF-8
 
+@Book{2007-FribergB+FribergT-VidaNova,
+  title     = {O Novo Testamento Grego Analítico},
+  publisher = {Vida Nova},
+  year      = {2007},
+  editor    = {Barbara Friberg and Timothy Friberg},
+  address   = {São Paulo, SP},
+  isbn      = {978-85-275-0173-6},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
 @Book{2009-Houaiss+Franco-Objetiva,
   title     = {Dicionário Houaiss da Língua Portuguesa},
   publisher = {Objetiva},
@@ -56,13 +69,16 @@
 
 % Encoding: UTF-8
 
-@Book{2007-FribergB+FribergT-VidaNova,
-  title     = {O Novo Testamento Grego Analítico},
-  publisher = {Vida Nova},
-  year      = {2007},
-  editor    = {Barbara Friberg and Timothy Friberg},
+@Book{2009-MounceWD-Vida,
+  title     = {Fundamentos do Grego Bíblico: Livro de Gramática},
+  publisher = {Vida},
+  year      = {2009},
+  author    = {William D. Mounce},
   address   = {São Paulo, SP},
-  isbn      = {978-85-275-0173-6},
+  edition   = {1},
+  month     = jul,
+  isbn      = {978-85-383-0103-5},
+  note      = {Tradução Gordon Chown},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
