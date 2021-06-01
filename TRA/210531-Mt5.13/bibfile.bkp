@@ -39,6 +39,20 @@
 
 % Encoding: UTF-8
 
+@Book{2007-GingrichFW-VidaNova,
+  title     = {Léxico do Novo Testamento Grego Português},
+  publisher = {Vida Nova},
+  year      = {2007},
+  author    = {F. Wilbur Gingrich},
+  address   = {São Paulo, SP},
+  isbn      = {978-85-275-0085-2},
+  note      = {Tradução Júlio P. T. Zabatiero},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
 @Book{2009-Houaiss+Franco-Objetiva,
   title     = {Dicionário Houaiss da Língua Portuguesa},
   publisher = {Objetiva},
@@ -98,14 +112,15 @@
 
 % Encoding: UTF-8
 
-@Book{2007-GingrichFW-VidaNova,
-  title     = {Léxico do Novo Testamento Grego Português},
+@Book{1985-RieneckerF+RogersC-VidaNova,
+  title     = {Chave Lingüística do Novo Testamento Grego},
   publisher = {Vida Nova},
-  year      = {2007},
-  author    = {F. Wilbur Gingrich},
+  year      = {1985},
+  author    = {Fritz Rienecker and Cleon Rogers},
   address   = {São Paulo, SP},
-  isbn      = {978-85-275-0085-2},
-  note      = {Tradução Júlio P. T. Zabatiero},
+  edition   = {1},
+  isbn      = {978-85-275-0009-8},
+  note      = {Tradução Gordon Chown and Júlio P. T. Zabatiero},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
