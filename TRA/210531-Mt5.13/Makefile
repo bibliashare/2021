@@ -20,6 +20,9 @@ ${PREF}.pdf: ${PREF}.tex \
 		res/cc/by-nc-nd-88x31.pdf \
 		res/logo/BibliaShare.pdf
 	pdflatex ${PREF}.tex
+	bibtex ${PREF}
+	pdflatex ${PREF}.tex
+	pdflatex ${PREF}.tex
 
 ${PREF}.png: ${PREF}.pdf
 	mkdir -p ${PREF}.png
